@@ -1,0 +1,17 @@
+name = event field base
+core = 7.x
+package = Features
+dependencies[] = date
+dependencies[] = features
+dependencies[] = image
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[field_base][] = field_datum
+features[field_base][] = field_event_typ
+features[field_base][] = field_image
+features[field_base][] = field_kategori
+features[field_base][] = field_tags
+features[taxonomy][] = event_type
+features[taxonomy][] = kategori
+features[taxonomy][] = tags
+project path = sites/all/modules/features/custom
